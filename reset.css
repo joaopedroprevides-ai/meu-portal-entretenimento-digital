@@ -1,0 +1,16 @@
+/* CSS Reset - baseado em Eric Meyer */
+
+html, body, div, h1, h2, p, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}

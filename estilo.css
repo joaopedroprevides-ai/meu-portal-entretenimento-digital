@@ -1,0 +1,107 @@
+
+/* Estilo geral da página */
+
+body {
+    background-color: #111827;
+    font-family: Arial, sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+/* Título principal */
+
+h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 32px;
+}
+
+/* Menu de navegação */
+
+.menu {
+    margin-bottom: 30px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #38bdf8;
+}
+
+/* Organização das três seções */
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: stretch;
+}
+
+/* Estilo geral dos cartões */
+
+.secao {
+    background-color: #1f2937;
+    padding: 20px;
+    border-radius: 12px;
+    flex: 1;
+    text-align: center;
+    min-width: 0;
+}
+
+/* Títulos das seções */
+
+.secao h2 {
+    color: #38bdf8;
+    margin-bottom: 15px;
+}
+
+/* Imagens */
+
+.secao img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Textos */
+
+.secao p {
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/* Identificação individual das seções */
+
+#filmes {
+    border-top: 4px solid #e879f9;
+}
+
+#musica {
+    border-top: 4px solid #38bdf8;
+}
+
+#games {
+    border-top: 4px solid #4ade80;
+}
+
+/* Adaptação para telas menores */
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
